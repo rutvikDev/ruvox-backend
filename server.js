@@ -20,6 +20,7 @@ app.use(
     origin: [
       "http://localhost:5173", // Vite default
       "http://localhost:3000",
+      "https://ruvox-voice-ai.vercel.app",
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
